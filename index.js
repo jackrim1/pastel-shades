@@ -15,22 +15,22 @@ function pastelStart(){
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  //const main_div = document.querySelector('[pastel]');
-  
-  const tests = document.querySelectorAll("mx-auto")
-  console.log("pastely pastey poop")
-  console.log(tests)
-  //const children = main_div.getElementsByTagName("*")
+  function addColors(){
+    const main_div = document.querySelector('[pastel]');
+    console.log("pastely pastey poop")
+    console.log(main_div)
+    //const children = main_div.getElementsByTagName("*")
 
-  children.forEach( function(index, value){
-    const rando1 = randoInt(210,250)
-    const rando2 = randoInt(230,250)
-    const rando3 = randoInt(200,250)
-    const color = rgbToHex(rando1, rando2, rando3)
-    index.style.backgroundColor = color
-  })
+    children.forEach( function(index, value){
+      const rando1 = randoInt(210,250)
+      const rando2 = randoInt(230,250)
+      const rando3 = randoInt(200,250)
+      const color = rgbToHex(rando1, rando2, rando3)
+      index.style.backgroundColor = color
+    })
+  }
 
-  console.log("mmmm pastel shades are so hot right now")
+  document.addEventListener("load", addColors);
 
 }
 
