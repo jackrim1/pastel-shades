@@ -15,7 +15,7 @@ To use simple place the attribute `pastel` within a div and all of its children 
 
 
 ```html
-  <div pastel class="mx-auto etc etc">
+  <div pastel >
     <div>
       <div>
       </div>
