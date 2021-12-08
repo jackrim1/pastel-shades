@@ -16,7 +16,9 @@ function pastelStart(){
   }
 
   const main_div = document.querySelectorAll('[pastel]');
-  const children = main_div.getElementsByTagName("*")
+  console.log("pastely pastey poop")
+  console.log(main_div)
+  //const children = main_div.getElementsByTagName("*")
 
   children.forEach( function(index, value){
     const rando1 = randoInt(210,250)
