@@ -37,5 +37,17 @@ To use simply place the attribute `pastel` within a div and all of its children 
 Run:
 
 `npm install pastel-shades`
+
 or
+
 `yarn add pastel-shades`
+
+Then in your js set-up:
+
+```js
+
+const pastel = require("pastel-shades")
+pastel.pastelStart();
+
+```
+
