@@ -15,7 +15,7 @@ function pastelStart(){
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  const main_div = document.querySelectorAll('[pastel]');
+  const main_div = document.querySelector('[pastel]');
   console.log("pastely pastey poop")
   console.log(main_div)
   //const children = main_div.getElementsByTagName("*")
