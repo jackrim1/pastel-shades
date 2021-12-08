@@ -20,9 +20,9 @@ function pastelStart(){
     const children = main_div.getElementsByTagName("*")
 
     children.forEach( function(index, value){
-      const rando1 = randoInt(210,250)
-      const rando2 = randoInt(230,250)
-      const rando3 = randoInt(200,250)
+      const rando1 = randoInt(200,240)
+      const rando2 = randoInt(200,240)
+      const rando3 = randoInt(200,240)
       const color = rgbToHex(rando1, rando2, rando3)
       index.style.backgroundColor = color
     })
