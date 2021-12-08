@@ -1,6 +1,6 @@
 {
   "name": "pastel-shades",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adding the single attribute 'pastel' to an html div will give it and all of its children a different colored pastel background color. This makes it easy to see how big and where each div is",
   "license": "MIT",
   "repository": "jackrim1/pastel-shades",

@@ -1,4 +1,4 @@
-module.exports = function pastel() {
+(function() {
 
   function componentToHex(c) {
     var hex = c.toString(16);
@@ -28,4 +28,4 @@ module.exports = function pastel() {
 
   console.log("mmmm pastel shades are so hot right now")
 
-}
+})
