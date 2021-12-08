@@ -16,6 +16,7 @@ function pastelStart(){
   }
 
   //const main_div = document.querySelector('[pastel]');
+  
   const tests = document.querySelectorAll("mx-auto")
   console.log("pastely pastey poop")
   console.log(tests)
