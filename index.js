@@ -26,4 +26,6 @@ module.exports = function() {
     index.style.backgroundColor = color
   })
 
+  console.log("mmmm pastel shades are so hot right now")
+
 }
