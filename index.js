@@ -15,9 +15,10 @@ function pastelStart(){
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  const main_div = document.querySelector('[pastel]');
+  //const main_div = document.querySelector('[pastel]');
+  const tests = document.querySelectorAll("mx-auto")
   console.log("pastely pastey poop")
-  console.log(main_div)
+  console.log(tests)
   //const children = main_div.getElementsByTagName("*")
 
   children.forEach( function(index, value){
