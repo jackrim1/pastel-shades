@@ -30,7 +30,7 @@ function pastelStart(){
     })
   }
 
-  document.addEventListener("load", addColors);
+  window.addEventListener("load", addColors);
 
 }
 
