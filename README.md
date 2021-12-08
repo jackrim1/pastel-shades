@@ -5,10 +5,14 @@ Sometimes centering a div drives to madness, coloring the background of divs hel
 
 To use simple place the attribute `pastel` within a div and all of its children will have their background colored too.
 
+![Before](https://ibb.co/t4nRNVm)
+
+![After](https://ibb.co/XtjWTfS)
+
+
 ### Installation
 
 Run:
-
 
 `npm install pastel-shades`
 or
