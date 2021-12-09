@@ -27,15 +27,6 @@ function pastelStart(){
       let child = children[i]
       child.style.backgroundColor = color
     }
-    /*
-    children.forEach( function(index, value){
-      const rando1 = randoInt(205,245)
-      const rando2 = randoInt(205,245)
-      const rando3 = randoInt(205,245)
-      const color = rgbToHex(rando1, rando2, rando3)
-      index.style.backgroundColor = color
-    })
-    */
   }
 
   window.addEventListener("load", addColors);
