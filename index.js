@@ -18,7 +18,6 @@ function pastelStart(){
   function addColors(){
     const main_div = document.querySelector('[pastel]');
     const children = main_div.getElementsByTagName("*")
-    console.log(children)
     for (var i = 0; i < children.length; i++){
       const rando1 = randoInt(205,245)
       const rando2 = randoInt(205,245)
